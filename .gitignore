@@ -1,0 +1,13 @@
+.vscode/*
+build/*
+dist/*
+out/*
+.venv/
+*.egg-info
+deploy
+version.py
+__pycache__/*
+
+*.elf
+*.nso
+*.npdm
