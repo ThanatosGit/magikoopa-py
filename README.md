@@ -4,7 +4,7 @@ A 3DS game code injection and patching tool. Compiles custom ARM code, injects i
 
 This is a pure-Python CLI rewrite of the original C++/Qt application. No GUI, no Qt dependency — just Python 3.10+ and the ARM devkitPro toolchain.
 
-All files here were generated entirely by an LLM. The only manually applied patch was changing `text.size = text.physicalRegionSize << 12` to the new code size, as the algined variant crashed on Luma + 3DS for [msr-remote-connecotr](https://github.com/randovania/msr-remote-connector)
+All files here were generated entirely by an LLM. The only manually applied patch was changing `text.size = text.physicalRegionSize << 12` to the new code size, as the aligned variant crashed on Luma + 3DS for [msr-remote-connector](https://github.com/randovania/msr-remote-connector)
 
 You can find the original project at https://github.com/RicBent/Magikoopa
 
