@@ -161,7 +161,7 @@ class Exheader:
             if (cap & 0xF8000000) == 0xF0000000:
                 # SVC descriptor
                 mask = cap & 0x00FFFFFF
-                table_index = (cap & 0x03000000) >> 24
+                table_index = (cap & 0x07000000) >> 24
                 for bit in range(24):
                     if mask & (1 << bit):
                         svc = table_index * 24 + bit
